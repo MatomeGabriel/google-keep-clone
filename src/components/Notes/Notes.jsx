@@ -1,5 +1,6 @@
 import Note from "./Note";
 import "./Notes.css";
+import backgroundImage from "@assets/add_note.svg";
 
 const Notes = ({
   notes,
@@ -31,7 +32,14 @@ const Notes = ({
       )}{" "}
       {notes.length === 0 && (
         <div className="empty">
-          <div className="empty-icon bg-note-icon"></div>
+          <div
+            style={{
+              backgroundImage: `url(${backgroundImage})`,
+              color: "yellow",
+            }}
+            className="empty-icon">
+            <img className="empty-img" src={backgroundImage} alt="" />
+          </div>
           <p className="empty-text">Notes you add appear here</p>
         </div>
       )}

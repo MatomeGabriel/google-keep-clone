@@ -44,19 +44,12 @@
   margin: 20px;
 }
 
-.empty-icon {
+.empty-icon,
+.empty-img {
   width: 120px;
   height: 120px;
-
-  background-repeat: no-repeat;
-  background-position: center;
-  /* set background image width and height */
-  background-size: 120px 120px;
 }
 /* backgroud for note icon */
-.bg-note-icon {
-  background-image: url("./add_note.svg");
-}
 
 .margin-top-md {
   margin-top: 48px;

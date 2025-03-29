@@ -43,8 +43,8 @@ MuiSvgIcon-root {
   gap: 16px;
   align-items: center;
 }
-.note-footer .css-1umw9bq-MuiSvgIcon-root,
-.small-icons .css-1umw9bq-MuiSvgIcon-root {
+.note-footer svg,
+.small-icons svg {
   width: 17px;
   height: 17px;
 }

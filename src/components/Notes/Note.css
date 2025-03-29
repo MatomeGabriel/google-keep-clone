@@ -46,7 +46,7 @@
 
 .note:hover .note-footer,
 .note:hover .note-icon,
-.note:hover .title-pin .css-1umw9bq-MuiSvgIcon-root {
+.note:hover .title-pin svg {
   visibility: visible;
 }
 .note:hover {
@@ -78,12 +78,12 @@
   /* color: #5f6368; */
 }
 
-.title-pin .css-1umw9bq-MuiSvgIcon-root {
+.title-pin svg {
   width: 22px;
   height: 22px;
   visibility: hidden;
   opacity: 0.67;
 }
-.hover:hover .css-1umw9bq-MuiSvgIcon-root {
+.hover:hover svg {
   opacity: 1;
 }
