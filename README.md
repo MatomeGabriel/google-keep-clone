@@ -31,7 +31,7 @@ Ensure you have the following installed:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/__ADD__
+   git clone https://github.com/MatomeGabriel/google-keep-clone
    cd google-keep-clone
    ```
 2. **Install Dependencies: Run the following command to install all required dependencies:**
