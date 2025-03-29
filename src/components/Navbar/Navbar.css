@@ -1,0 +1,88 @@
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  border-bottom: 1px solid #dadce0;
+  outline: 1px solid #dadce0;
+  padding: 8px 18px;
+  /* margin: 0 10px; */
+  color: #5f6368;
+  position: sticky;
+  top: 0;
+  z-index: 150;
+  background-color: white;
+  gap: 24px;
+}
+
+/* LOGO AREA */
+.logo-area {
+  display: flex;
+  align-items: center;
+}
+
+.logo-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #5f6368;
+}
+
+.logo-link:active .logo-text {
+  text-decoration: underline;
+}
+
+.logo-text {
+  font-size: 1.2rem;
+}
+
+/* SEARCH AREA */
+
+.search-area {
+  max-width: 692px;
+  height: 48px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.search-area,
+.search-area input {
+  background-color: #f1f3f4;
+}
+
+.search-area input {
+  border: none;
+  width: 95%;
+  font-size: 1rem;
+  margin-left: 10px;
+}
+.margin-left-sm {
+  margin-left: 8px;
+}
+input:focus {
+  outline: none;
+}
+
+/* Settings */
+
+.settings-area {
+  display: flex;
+}
+
+/* Profile */
+.profile-actions-area {
+  display: flex;
+}
+
+/* test */
+.icon-btn {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+}

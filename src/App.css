@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.note-footer .material-symbols-outlined,
+.small-icons .material-symbols-outlined {
+  color: #5f6368;
+  font-size: 1.1rem;
+}
+
+.pinned {
+  max-width: 81.4vw;
+  margin: 0 auto;
+}
+
+.pinned.list {
+  max-width: 600px;
+}
+
+.pinned-text {
+  margin: 10px 8px 10px 10px;
+  color: rgb(95, 99, 104);
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  font-size: 11px;
+}
+
+/* 
+
+*/
+
+.color {
+  position: absolute;
+  visibility: visible;
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  top: 0;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.color span {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+/* MAIN CONTENt */
+
+main {
+  display: flex;
+}
+
+.sidebar {
+  flex-basis: 64px;
+}
+.main-content {
+  max-width: calc(100vw - 64px);
+  flex: 1;
+}

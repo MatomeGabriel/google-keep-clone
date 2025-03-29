@@ -1,0 +1,54 @@
+.material-symbols-outlined,
+MuiSvgIcon-root {
+  padding: 10px;
+}
+
+.tooltip {
+  position: relative;
+}
+.tooltip-text {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  font-size: 0.8rem;
+  background-color: rgba(60, 64, 67, 0.9);
+  color: #fff;
+  padding: 5px;
+  white-space: nowrap;
+  border-radius: 5px;
+  visibility: hidden;
+  z-index: 10;
+}
+
+.tooltip-text--end {
+  left: -15px;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+.hover:hover {
+  background-color: #5f636828;
+  color: #000;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.note-footer .icon-box,
+.small-icons .icon-box {
+  width: 32px;
+  height: 32px;
+}
+.small-icons {
+  gap: 16px;
+  align-items: center;
+}
+.note-footer .css-1umw9bq-MuiSvgIcon-root,
+.small-icons .css-1umw9bq-MuiSvgIcon-root {
+  width: 17px;
+  height: 17px;
+}
+
+.note-footer {
+  justify-content: space-between;
+}
